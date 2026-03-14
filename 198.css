@@ -14,7 +14,7 @@
 body { 
 	font: 12px Arial, Helvetica, sans-serif; 
 	color: #CCCCCC; 
-	background: #000000 url(background.jpg) no-repeat center bottom; 
+	background: #000000 url(/last.jpg) no-repeat center bottom; 
 	margin: 0px; 
 	}
 	
@@ -289,56 +289,58 @@ p:nth-child(6){
     white-space:nowrap;
 }
 
-#zen-preamble h3{
-    background-image: url("/kaka.jpg");
-    height:120px;
+/* ===== Section heading style (shared) ===== */
+
+#zen-preamble h3,
+#zen-explanation h3,
+#zen-participation h3,
+#zen-benefits h3,
+#zen-requirements h3{
+
     width:434px;
-    text-indent:-9999px;
-    background-repeat:no-repeat;
+    height:120px;
+
     background-size:cover;
+    background-repeat:no-repeat;
     background-position:center;
+
+    color:#ff3b3b;
+    font-size:28px;
+    font-weight:bold;
+    text-transform:uppercase;
+
+    display:flex;
+    align-items:flex-end;   /* vertical position of text */
+    justify-content:flex-start; /* horizontal position */
+
+    padding-left:20px;
+    padding-bottom:15px;
+
+    text-shadow:2px 2px 6px black;
+}
+
+
+/* ===== Section images ===== */
+
+#zen-preamble h3{
+    background-image:url("/kaka.jpg");
 }
 
 #zen-explanation h3{
-    background-image: url("/kakabito2.jpg");
-    height:120px;
-    width:434px;
-    text-indent:-9999px;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-image:url("/kakabito2.jpg");
 }
 
 #zen-participation h3{
-    background-image: url("/no3.jpg");
-    height:120px;
-    width:434px;
-    text-indent:-9999px;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-image:url("/no3.jpg");
 }
 
 #zen-benefits h3{
-    background-image: url("/no.4.jpg");
-    height:120px;
-    width:434px;
-    text-indent:-9999px;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-image:url("/no.4.jpg");
 }
 
 #zen-requirements h3{
-    background-image: url("/t.jpg");
-    height:120px;
-    width:434px;
-    text-indent:-9999px;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-image:url("/t.jpg");
 }
-
 	
 /* 
 

@@ -13,10 +13,16 @@
 
 body { 
 	font: 12px Arial, Helvetica, sans-serif; 
-	color: #CCCCCC; 
-	background: #000000 url(/last.jpg) no-repeat center bottom; 
+	color: #CCCCCC;
+
+	background-image: url("/side.jpg"), url("/side.jpg"), url("/last.jpg");
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: left center, right center, center bottom;
+	background-size: contain, contain, auto;
+
+	background-color: #000000;
 	margin: 0px; 
-	}
+}
 	
 p {
 	width: 354px;

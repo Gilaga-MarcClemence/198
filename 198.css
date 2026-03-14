@@ -302,17 +302,17 @@ p:nth-child(6){
 }
 
 #zen-participation h3{
-    background-image: url("participation.png");
+    background-image: url("/so.jpg");
     height:120px;
     /* text-indent:-9999px; */
 }
 
 #zen-benefits h3{
-    background-image: url("benefits.png");
+    background-image: url("/no.4.jpg");
 }
 
 #zen-requirements h3{
-    background-image: url("requirements.png");
+    background-image: url("/t.jpg");
 }
 
 

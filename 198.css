@@ -15,7 +15,7 @@ body {
 	font: 12px Arial, Helvetica, sans-serif; 
 	color: #CCCCCC;
 
-	background-image: url("/side.jpg"), url("/side.jpg"), url("/last.jpg");
+	background-image: url("side.jpg"), url("side.jpg"), url("last.jpg");
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-position: left center, right center, center bottom;
 	background-size: contain, contain, auto;
@@ -69,7 +69,7 @@ abbr{
 	}
 
 header {
-	background: url(/gifgit.gif) no-repeat;
+	background: url(gifgit.gif) no-repeat;
 	background-position: left bottom;
 	display: block;
 	height: 459px;
@@ -275,7 +275,7 @@ p:nth-child(6){
     font-size:70px;
     font-weight:bold;
 
-    background:url("/stone.jpg");
+    background:url("stone.jpg");
     background-size:cover;
 
     -webkit-background-clip:text;
@@ -332,23 +332,23 @@ p:nth-child(6){
 /* ===== Section images ===== */
 
 #zen-preamble h3{
-    background-image:url("/kaka.jpg");
+    background-image:url("kaka.jpg");
 }
 
 #zen-explanation h3{
-    background-image:url("/kakabito2.jpg");
+    background-image:url("kakabito2.jpg");
 }
 
 #zen-participation h3{
-    background-image:url("/no3.jpg");
+    background-image:url("no3.jpg");
 }
 
 #zen-benefits h3{
-    background-image:url("/no.4.jpg");
+    background-image:url("no.4.jpg");
 }
 
 #zen-requirements h3{
-    background-image:url("/t.jpg");
+    background-image:url("t.jpg");
 }
 	
 /* 

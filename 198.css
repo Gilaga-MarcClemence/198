@@ -292,29 +292,52 @@ p:nth-child(6){
 #zen-preamble h3{
     background-image: url("/kaka.jpg");
     height:120px;
-    /*text-indent:-9999px;*/
+    width:434px;
+    text-indent:-9999px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 
 #zen-explanation h3{
     background-image: url("/kakabito2.jpg");
     height:120px;
-    /*text-indent:-9999px;*/
+    width:434px;
+    text-indent:-9999px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 
 #zen-participation h3{
-    background-image: url("/so.jpg");
+    background-image: url("/no3.jpg");
     height:120px;
-    /* text-indent:-9999px; */
+    width:434px;
+    text-indent:-9999px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 
 #zen-benefits h3{
     background-image: url("/no.4.jpg");
+    height:120px;
+    width:434px;
+    text-indent:-9999px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 
 #zen-requirements h3{
     background-image: url("/t.jpg");
+    height:120px;
+    width:434px;
+    text-indent:-9999px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
-
 
 	
 /* 

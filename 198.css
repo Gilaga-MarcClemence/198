@@ -151,7 +151,7 @@ h3 span{
 	}
 
 .sidebar {
-	background: url(/kidobito.png) no-repeat;
+	background: url(kidobito.png) no-repeat;
 	background-position: left bottom;
 	color: #777777;
 	position: absolute;
